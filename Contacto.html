@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Prebuilt Layout</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="stilo contacto.css" rel="stylesheet" type="text/css">
+	  <link href="css-1.css" rel="stylesheet" type="text/css">
+	  <link href="php 222222.php" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+      
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DDD618"> 
+		<a class="navbar-brand" href="index.html"><img src="denace imagenes/Logo.png" width="100" alt=""></a>
+		
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+             <li class="nav-item active">
+                <a class="nav-link" href="#"> <span class="sr-only">(current)</span></a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link" href="Untitled-4.html">Servicios</a>
+             </li>
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+               </a>
+				 
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                   <a class="dropdown-item" href="Hierbicidas.html">Hierbicidas</a>
+					<a class="dropdown-item" href="Semillas.html">Semillas</a>
+                   <a class="dropdown-item" href="Fertilizante.html">Fertilizantes</a>
+					
+					
+					
+                </div>
+				 
+            </li>
+             <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+             </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+             
+			  
+
+          </form>
+       </div>
+    </nav>
+	  
+	  
+	  
+	  
+
+    <h1>Contacto</h1>
+  <form action="mailto:oliveraaron49@gmail.com" method="POST" enctype="text/plain">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" required><br><br>
+
+    <label for="correo">Correo electrónico:</label>
+    <input type="email" id="correo" name="correo" required><br><br>
+
+    <label for="pais">País:</label>
+    <input type="text" id="pais" name="pais" required><br><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required><br><br>
+
+    <label for="mensaje">Mensaje:</label><br>
+    <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+	  
+	  <form action="enviar_correo.php" method="POST">
+
+  </form>
+	  
+	  <footer>
+	  <section class="pie01">
+		  <div class="container">
+		    <div class="row text-white">
+			    <div class="col-md-6">
+				<h3>Mapa del sitio</h3>
+					<dl>
+						<dl><a href="">Inicio</a></dl>
+						<dl><a href="">Nosotros</a></dl>
+						<dl><a href="">Productos</a></dl>
+					    </dl>
+				</div>
+			    <div class="col-md-6">
+				<h3>Informacion</h3>
+					<address>
+					Morazan, Yoro.<br>
+					Telefono:<abbr 
+					title="phone">26911318</abbr><br>
+					Email: <a 
+				   href="agroserviciosdenace">agroserviciosdenace1975@gmail.com</a>	
+					</address>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4576.339655380186!2d-87.59775013036052!3d15.309860776100248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f661e97f64764bb%3A0xab3b73102063c770!2sServicios%20De%20Agrosecados%20DENACE!5e0!3m2!1ses-419!2shn!4v1692069500955!5m2!1ses-419!2shn" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+		    </div>
+          </div>
+      </section>
+	  <section class="pie02">
+		  <div class="container">
+			  &copy;Denace
+		  </div>
+      </section>
+	  </footer>
+	  
+	  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
